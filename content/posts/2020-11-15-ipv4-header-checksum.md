@@ -14,7 +14,7 @@ Mô hình **OSI** gồm 7 tầng (layer), mỗi tầng đều chỉ sử dụng 
 
 ![OSI model](/img/2020/11-15_01.png)
 
-Trong đó, IP Protocol hay cụ thể hơn là **IPv4** hoạt động ở tầng 4 (Network Layer).
+Trong đó, IP Protocol hay cụ thể hơn là **IPv4** hoạt động ở tầng 3 (Network Layer).
 
 ## 1.2. IPv4 header
 

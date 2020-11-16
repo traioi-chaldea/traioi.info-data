@@ -19,3 +19,4 @@
 ### 2020
 
 * [Get SNMP Metrics with SNMP Exporter](/content/2020-10-13-get-snmp-metrics-with-snmp-exporter.md)
+* [IPv4 Header Checksum](/content/2020-11-15-ipv4-header-checksum.md)

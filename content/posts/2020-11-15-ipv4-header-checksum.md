@@ -12,7 +12,7 @@ categories: network
 
 Mô hình **OSI** gồm 7 tầng (layer), mỗi tầng đều chỉ sử dụng chức năng của tầng bên dưới của nó, đồng thời chỉ cho phép tầng trên sử dụng các chức năng của mình. Các tầng này liên kết với nhau tạo thành một *protocol stack*.
 
-![OSI model](/img/2020/11-15_01.png)
+![center](/img/2020/11-15_01.png)
 
 Trong đó, IP Protocol hay cụ thể hơn là **IPv4** hoạt động ở tầng 3 (Network Layer).
 
@@ -22,7 +22,7 @@ Trong đó, IP Protocol hay cụ thể hơn là **IPv4** hoạt động ở tầ
 
 **IPv4 Header** bao gồm 14 trường (fields), trong đó 13 trường là bắt buộc, trường còn lại là trường **Options**.
 
-![IPv4 Header](/img/2020/11-15_02.png)
+![center](/img/2020/11-15_02.png)
 
 ### Example
 
@@ -155,7 +155,7 @@ Gói tin được xét là hợp lệ nếu tổng từng giá trị 16 bits tro
 (2fffd & 0xffff) + (2fffd >> 16) = fffd + 2 = ffff
 ```
 
-**Receiver** xác sẽ xác định gói tin có  `~(0xffff)=0x0000` lỗi.
+**Receiver** sẽ xác định gói tin có  `~(0xffff)=0x0000` lỗi.
 
 # 3. References
 
